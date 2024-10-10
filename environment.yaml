@@ -1,0 +1,11 @@
+name: catalog_generator
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - datalad
+  - pip
+  - pip:
+    - datalad-metalad
+    - datalad-catalog
