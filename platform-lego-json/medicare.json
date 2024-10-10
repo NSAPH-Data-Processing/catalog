@@ -1,0 +1,64 @@
+{
+    "type": "dataset",
+    "dataset_id": "lego.medicare",
+    "dataset_version": "v0",
+    "name": "Medicare Core Datasets",
+    "short_name": "Medicare Core Datasets",
+    "description": "Medicare Core Datasets",
+    "doi": "",
+    "url": "",
+    "license": {
+      "name": "No license. DUA required for access.",
+      "url": ""
+    },
+    "authors": [
+      {
+        "givenName": "",
+        "familyName": "",
+        "email": ""
+      }
+    ],
+    "access_request_url": "",
+    "keywords": [
+      "medicare",
+      "health",
+      "core"
+    ],
+    "funding": [],
+    "publications": [],
+    "subdatasets": [
+      {
+        "dataset_id": "platform.environmental.meteorology__gridmet",
+        "dataset_version": "v1",
+        "dataset_path": "meteorology__gridmet"
+      },
+      {
+        "dataset_id": "platform.environmental.climate_types__koppen",
+        "dataset_version": "v4",
+        "dataset_path": "climate_types__koppen"
+      }
+    ],
+    "metadata_sources": {
+      "key_source_map": {},
+      "sources": [
+        {
+          "source_name": "manual",
+          "source_version": "manual"
+        }
+      ]
+    },
+    "additional_display": [
+      {
+        "name": "FASSE path",
+        "content": {
+          "path": "platform/environmental/"
+        }
+      }
+    ],
+    "top_display": [
+      {
+        "name": "",
+        "value": ""
+      }
+    ]
+  }
