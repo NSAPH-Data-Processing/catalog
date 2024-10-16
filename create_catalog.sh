@@ -1,3 +1,4 @@
+rm -r lego
 datalad catalog-create --catalog lego
 
 datalad catalog-validate --metadata json/lego.jsonl
