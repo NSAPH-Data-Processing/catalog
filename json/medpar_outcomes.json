@@ -5,7 +5,7 @@
     "dataset_version": "v0",
     "name": "Medicare Provider Analysis and Review (MedPAR) Outcomes Files",
     "short_name": "MedPAR Outcomes Files",
-    "description": "The files contain hospital admission records for Medicare beneficiaries, filtered and tagged based on a list of ICD diagnosis codes provided by researchers.",
+    "description": "The files contain hospital inpatient admission records for Medicare beneficiaries, filtered and tagged based on a list of ICD diagnosis codes provided by researchers.",
     "doi": "",
     "url": "https://github.com/NSAPH-Data-Processing/medpar_outcomes",
     "license": {
@@ -72,10 +72,10 @@
         }
       ]
     },
-    "additional_display" : [
+    "additional_display": [
       {
-        "name" : "Data Dictionary",
-        "content" : {
+        "name": "Data Dictionary",
+        "content": {
           "bene_id": "String: Unique beneficiary identifier",
           "adm_id": "String: Unique admission identifier",
           "admission_date": "Timestamp[us]: Admission date of the beneficiary",
@@ -83,7 +83,7 @@
           "year": "Int64: Year of the record",
           "outcome": "String: Outcome flag indicating the diagnosis associated with the hospital admission",
           "outcome_criteria": "String: Defines the rule used to evaluate ICD codes for admissions.`all`considers all available diagnosis codes for the admission and `first_n`considers only a specified number of diagnosis codes (e.g., the first 5) when determining whether the admission meets the outcome criteria",
-          "outcome_index":"Int64: Sequential index of the outcome events for the beneficiaries"
+          "outcome_index": "Int64: Sequential index of the outcome events for the beneficiaries"
         }
       }
     ]
