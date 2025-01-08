@@ -28,5 +28,17 @@ datalad catalog-add --catalog lego --metadata json/environmental.jsonl
 datalad catalog-validate --metadata json/meteorology__gridmet.jsonl
 datalad catalog-add --catalog lego --metadata json/meteorology__gridmet.jsonl
 
+datalad catalog-validate --metadata json/legacy_medicare.jsonl
+datalad catalog-add --catalog lego --metadata json/legacy_medicare.jsonl
+
+datalad catalog-validate --metadata json/legacy_mbsf_mortality_denom.jsonl
+datalad catalog-add --catalog lego --metadata json/legacy_mbsf_mortality_denom.jsonl
+
+datalad catalog-validate --metadata json/legacy_mbsf_medpar_denom.jsonl
+datalad catalog-add --catalog lego --metadata json/legacy_mbsf_medpar_denom.jsonl
+
+datalad catalog-validate --metadata json/legacy_medpar_outcomes.jsonl
+datalad catalog-add --catalog lego --metadata json/legacy_medpar_outcomes.jsonl
+
 datalad catalog-set --catalog lego --dataset-id lego --dataset-version v0 home
 datalad catalog-serve --catalog lego --port 8000 
