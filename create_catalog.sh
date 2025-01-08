@@ -16,5 +16,11 @@ datalad catalog-add --catalog lego --metadata json/mbsf_medpar_denom.jsonl
 datalad catalog-validate --metadata json/medpar_outcomes.jsonl
 datalad catalog-add --catalog lego --metadata json/medpar_outcomes.jsonl
 
+datalad catalog-validate --metadata json/geoboundaries.jsonl
+datalad catalog-add --catalog lego --metadata json/geoboundaries.jsonl
+
+datalad catalog-validate --metadata json/us_geoboundaries__census.jsonl
+datalad catalog-add --catalog lego --metadata json/us_geoboundaries__census.jsonl
+
 datalad catalog-set --catalog lego --dataset-id lego --dataset-version v0 home
 datalad catalog-serve --catalog lego --port 8000 
