@@ -22,5 +22,11 @@ datalad catalog-add --catalog lego --metadata json/geoboundaries.jsonl
 datalad catalog-validate --metadata json/us_geoboundaries__census.jsonl
 datalad catalog-add --catalog lego --metadata json/us_geoboundaries__census.jsonl
 
+datalad catalog-validate --metadata json/environmental.jsonl
+datalad catalog-add --catalog lego --metadata json/environmental.jsonl
+
+datalad catalog-validate --metadata json/meteorology__gridmet.jsonl
+datalad catalog-add --catalog lego --metadata json/meteorology__gridmet.jsonl
+
 datalad catalog-set --catalog lego --dataset-id lego --dataset-version v0 home
 datalad catalog-serve --catalog lego --port 8000 
