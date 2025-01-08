@@ -1,0 +1,1 @@
+{"type": "directory", "dataset_id": "lego.geoboundaries.us_geoboundaries__census", "dataset_version": "v0", "children": [{"type": "directory", "name": "us__shapefile__census__county_yearly__yyyy", "path": "us_shapefile__census/county_yearly/us__shapefile__census__county_yearly__yyyy"}], "path": "us_shapefile__census/county_yearly", "name": "county_yearly"}
