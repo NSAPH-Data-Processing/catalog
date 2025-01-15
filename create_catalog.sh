@@ -28,6 +28,12 @@ datalad catalog-add --catalog lego --metadata json/environmental.jsonl
 datalad catalog-validate --metadata json/meteorology__gridmet.jsonl
 datalad catalog-add --catalog lego --metadata json/meteorology__gridmet.jsonl
 
+datalad catalog-validate --metadata json/social.jsonl
+datalad catalog-add --catalog lego --metadata json/social.jsonl
+
+datalad catalog-validate --metadata json/demographics__census.jsonl
+datalad catalog-add --catalog lego --metadata json/demographics__census.jsonl
+
 datalad catalog-validate --metadata json/legacy_medicare.jsonl
 datalad catalog-add --catalog lego --metadata json/legacy_medicare.jsonl
 
