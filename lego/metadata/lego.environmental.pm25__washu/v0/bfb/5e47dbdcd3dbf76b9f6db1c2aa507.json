@@ -1,0 +1,1 @@
+{"type": "directory", "dataset_id": "lego.environmental.pm25__washu", "dataset_version": "v0", "children": [{"type": "dataset", "name": "pm25__washu__zcta_annual__yyyy.parquet", "path": "zcta_annual/pm25__washu__zcta_annual__yyyy.parquet", "dataset_id": "lego.environmental.pm25__washu.zcta_annual", "dataset_version": "v0"}], "path": "zcta_annual", "name": "zcta_annual"}
