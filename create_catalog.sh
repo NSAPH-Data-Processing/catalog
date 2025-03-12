@@ -37,6 +37,9 @@ datalad catalog-add --catalog lego --metadata json/pm25__washu.jsonl
 datalad catalog-validate --metadata json/climate_types__koppen_geiger.jsonl
 datalad catalog-add --catalog lego --metadata json/climate_types__koppen_geiger.jsonl
 
+datalad catalog-validate --metadata json/air_pollution__aqdh.jsonl
+datalad catalog-add --catalog lego --metadata json/air_pollution__aqdh.jsonl
+
 datalad catalog-validate --metadata json/social.jsonl
 datalad catalog-add --catalog lego --metadata json/social.jsonl
 
