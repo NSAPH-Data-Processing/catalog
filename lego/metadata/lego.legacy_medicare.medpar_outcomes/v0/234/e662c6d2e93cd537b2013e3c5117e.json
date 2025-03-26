@@ -1,0 +1,1 @@
+{"type": "directory", "dataset_id": "lego.legacy_medicare.medpar_outcomes", "dataset_version": "v0", "children": [{"type": "dataset", "name": "adrd_yyyy.parquet", "path": "michelle_garam_00/adrd_yyyy.parquet", "dataset_id": "lego.legacy_medicare.medpar_outcomes.michelle_garam_00.adrd", "dataset_version": "v0"}], "path": "michelle_garam_00", "name": "michelle_garam_00"}
