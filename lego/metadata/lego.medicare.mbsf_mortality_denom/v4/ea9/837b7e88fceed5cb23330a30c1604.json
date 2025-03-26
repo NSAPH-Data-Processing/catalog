@@ -1,1 +1,0 @@
-{"type": "directory", "dataset_id": "lego.medicare.mbsf_mortality_denom", "dataset_version": "v4", "children": [{"type": "dataset", "name": "counts_yyyy.parquet", "path": "zcta_yearly/counts_yyyy.parquet", "dataset_id": "lego.medicare.mbsf_mortality_denom.zcta_yearly.counts", "dataset_version": "v4"}], "path": "zcta_yearly", "name": "zcta_yearly"}
