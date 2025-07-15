@@ -1,0 +1,1 @@
+{"type": "directory", "dataset_id": "lego.medicare.mbsf_ccw", "dataset_version": "v0", "children": [{"type": "dataset", "name": "mbsf_cc_yyyy.parquet", "path": "mbsf_cc/mbsf_cc_yyyy.parquet", "dataset_id": "lego.medicare.mbsf_ccw.mbsf_cc", "dataset_version": "v0"}], "path": "mbsf_cc", "name": "mbsf_cc"}

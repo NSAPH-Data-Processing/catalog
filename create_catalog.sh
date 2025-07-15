@@ -16,6 +16,9 @@ datalad catalog-add --catalog lego --metadata json/mbsf_medpar_denom.jsonl
 datalad catalog-validate --metadata json/medpar_outcomes.jsonl
 datalad catalog-add --catalog lego --metadata json/medpar_outcomes.jsonl
 
+datalad catalog-validate --metadata json/mbsf_ccw.jsonl
+datalad catalog-add --catalog lego --metadata json/mbsf_ccw.jsonl
+
 datalad catalog-validate --metadata json/geoboundaries.jsonl
 datalad catalog-add --catalog lego --metadata json/geoboundaries.jsonl
 
