@@ -5,20 +5,20 @@
     "link_hover_color": "#af7714",
     "social_links": {
         "about": "https://www.hsph.harvard.edu/nsaph/",
-        "documentation": "https://github.com/NSAPH/handbook",
-        "github": "https://github.com/NSAPH-Data-Processing",
+        "documentation": "https://nsaph.github.io/handbook/intro.html",
+        "github": null,
         "mastodon": null,
-        "x": "https://x.com/datalad"
+        "x": null
     },
     "dataset_options": {
         "include_datalad": true,
         "include_github": true,
-        "include_gitlab": false,
-        "include_gin": false,
-        "include_binder": false,
+        "include_gitlab": true,
+        "include_gin": true,
+        "include_binder": true,
         "include_cite": true,
         "include_metadata_export": true,
-        "include_access_request": false
+        "include_access_request": true
     },
     "property_sources": {
         "dataset": {

@@ -1,5 +1,5 @@
 rm -r lego
-datalad catalog-create --catalog lego
+datalad catalog-create --catalog lego --config-file config.json
 
 datalad catalog-validate --metadata json/lego.jsonl
 datalad catalog-add --catalog lego --metadata json/lego.jsonl
@@ -32,6 +32,7 @@ datalad catalog-validate --metadata json/meteorology__gridmet.jsonl
 datalad catalog-add --catalog lego --metadata json/meteorology__gridmet.jsonl
 
 datalad catalog-validate --metadata json/pm25__ushap.jsonl
+datalad catalog-add --catalog lego --metadata json/pm25__ushap.jsonl
 datalad catalog-add --catalog lego --metadata json/pm25__ushap.jsonl
 
 datalad catalog-validate --metadata json/pm25__washu.jsonl
