@@ -1,1 +1,1 @@
-{"type": "directory", "dataset_id": "lego.social.demographics__census", "dataset_version": "v2", "children": [{"type": "directory", "name": "zcta_yearly", "path": "65_plus/zcta_yearly"}], "path": "65_plus", "name": "65_plus"}
+{"type": "directory", "dataset_id": "lego.social.demographics__census", "dataset_version": "v2", "children": [{"type": "directory", "name": "county_yearly", "path": "65_plus/county_yearly"}, {"type": "directory", "name": "zcta_yearly", "path": "65_plus/zcta_yearly"}], "path": "65_plus", "name": "65_plus"}
