@@ -1,0 +1,1 @@
+{"type": "directory", "dataset_id": "lego.social.demographics__census", "dataset_version": "v2", "children": [{"type": "dataset", "name": "{acs1,acs5,dec}_yyyy.parquet", "path": "core/county_yearly/{acs1,acs5,dec}_yyyy.parquet", "dataset_id": "lego.social.demographics__census.core", "dataset_version": "v2"}], "path": "core/county_yearly", "name": "county_yearly"}
