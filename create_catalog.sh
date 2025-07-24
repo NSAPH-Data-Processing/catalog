@@ -1,5 +1,5 @@
 rm -r lego
-datalad catalog-create --catalog lego
+datalad catalog-create --catalog lego --config-file config.json
 
 datalad catalog-validate --metadata json/lego.jsonl
 datalad catalog-add --catalog lego --metadata json/lego.jsonl
@@ -65,4 +65,4 @@ datalad catalog-validate --metadata json/legacy_medpar_outcomes.jsonl
 datalad catalog-add --catalog lego --metadata json/legacy_medpar_outcomes.jsonl
 
 datalad catalog-set --catalog lego --dataset-id lego --dataset-version v0 home
-datalad catalog-serve --catalog lego --port 8000 
+datalad catalog-serve --catalog lego --port 8000
