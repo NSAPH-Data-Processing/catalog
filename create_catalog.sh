@@ -1,5 +1,12 @@
 rm -r lego
-datalad catalog-create --catalog lego
+datalad catalog-create --catalog lego --config-file config.json
+
+cp app_component_dataset.js lego/assets/app_component_dataset.js
+cp dataset-template.html lego/templates/dataset-template.html
+cp index.html lego/index.html
+cp favicon.ico lego/assets/favicon/favicon.ico
+cp favicon-16x16.png lego/assets/favicon/favicon-16x16.png
+cp favicon-32x32.png lego/assets/favicon/favicon-32x32.png
 
 datalad catalog-validate --metadata json/lego.jsonl
 datalad catalog-add --catalog lego --metadata json/lego.jsonl
@@ -65,4 +72,5 @@ datalad catalog-validate --metadata json/legacy_medpar_outcomes.jsonl
 datalad catalog-add --catalog lego --metadata json/legacy_medpar_outcomes.jsonl
 
 datalad catalog-set --catalog lego --dataset-id lego --dataset-version v0 home
-datalad catalog-serve --catalog lego --port 8000 
+
+datalad catalog-serve --catalog lego --port 8000
