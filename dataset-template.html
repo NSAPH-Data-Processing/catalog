@@ -19,8 +19,7 @@
         <!-- DATASET VERSION ETC -->
         <b-card-text>
           <strong>Version:</strong> {{selectedDataset.dataset_version.substring(0,7)}}&nbsp;
-          <strong>DOI:</strong> <span v-if="selectedDataset.doi"><a :href="selectedDataset.doi" target="_blank"> {{selectedDataset.doi.replace("https://doi.org/", "")}}</a></span>
-          <span v-else><em>unknown</em></span>&nbsp;
+          <span v-if="selectedDataset.doi"><strong>DOI:</strong> <a :href="selectedDataset.doi" target="_blank">{{selectedDataset.doi.replace("https://doi.org/", "")}}</a>&nbsp;</span>
           <strong>License:</strong> <span v-if="selectedDataset.license && selectedDataset.license.name"><a :href="selectedDataset.license.url" target="_blank"> {{selectedDataset.license.name}}</a></span>
           <span v-else><em>unknown</em></span>
         </b-card-text>
