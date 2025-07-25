@@ -383,6 +383,9 @@ const datasetView = () =>
               this.description_ready = true;
             }
           },
+          goBack() {
+            this.$router.go(-1);
+          },
           gotoHome() {
             // if there is NO home page set:
             // - if there is a tab name in the URL, navigate to current
