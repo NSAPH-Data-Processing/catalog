@@ -201,6 +201,12 @@ const datasetView = () =>
               else {
                 disp_dataset.show_export = false
               }
+              if (this.$root.hasOwnProperty("dataset_options") && this.$root.dataset_options.hasOwnProperty("include_binder")) {
+                disp_dataset.show_binder = this.$root.dataset_options.include_binder
+              }
+              else {
+                disp_dataset.show_binder = false
+              }
               // Write main derived variable and set to ready
               this.displayData = disp_dataset;
               this.display_ready = true;
