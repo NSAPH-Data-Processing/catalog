@@ -12,7 +12,7 @@
     "x": null
   },
   "dataset_options": {
-        "include_datalad": true,
+        "include_datalad": false,
         "include_github": true,
         "include_gitlab": false,
         "include_gin": false,
