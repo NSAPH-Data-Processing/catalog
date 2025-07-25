@@ -1,9 +1,9 @@
 {
   "catalog_name": "Health&Climate Lego Data Model",
   "catalog_url": null,
-  "logo_path": "",
-  "link_color": "#fba304",
-  "link_hover_color": "#af7714",
+  "logo_path": "nsaph.png",
+  "link_color": "#A51C30",
+  "link_hover_color": "#E2545A",
   "social_links": {
     "about": "https://www.hsph.harvard.edu/nsaph/",
     "documentation": "https://nsaph.github.io/handbook/intro.html",

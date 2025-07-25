@@ -3,6 +3,7 @@ datalad catalog-create --catalog lego --config-file config.json
 
 cp app_component_dataset.js lego/assets/app_component_dataset.js
 cp dataset-template.html lego/templates/dataset-template.html
+cp index.html lego/index.html
 
 datalad catalog-validate --metadata json/lego.jsonl
 datalad catalog-add --catalog lego --metadata json/lego.jsonl
