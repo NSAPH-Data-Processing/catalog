@@ -136,11 +136,9 @@
               <b-button pill disabled size="sm" variant="outline-dark" v-for="keyword in selectedDataset.keywords">{{keyword}}</b-button>
             </b-card-text>
 
-            <b-card-text v-if="selectedDataset.top_display">
+            <b-card-text v-if="selectedDataset.top_display && selectedDataset.top_display.length && selectedDataset.top_display.some(prop => prop.value)">
               <strong>Properties:</strong> <br>
-              <span v-if="selectedDataset.top_display && selectedDataset.top_display.length">
-                <span v-for="display_property in selectedDataset.top_display" v-if="display_property.value"><b-button disabled size="sm" variant="outline-dark">{{display_property.name}}: {{display_property.value}}</b-button>&nbsp;</span>
-              </span>
+              <span v-for="display_property in selectedDataset.top_display" v-if="display_property.value"><b-button disabled size="sm" variant="outline-dark">{{display_property.name}}: {{display_property.value}}</b-button>&nbsp;</span>
             </b-card-text>
           </b-col>
         </b-row>
