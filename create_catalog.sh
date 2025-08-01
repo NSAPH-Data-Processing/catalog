@@ -53,8 +53,8 @@ datalad catalog-add --catalog lego --metadata json/climate_types__koppen_geiger.
 datalad catalog-validate --metadata json/air_pollution__aqdh.jsonl
 datalad catalog-add --catalog lego --metadata json/air_pollution__aqdh.jsonl
 
-datalad catalog-validate --metadata json/wildfire__stanford.jsonl
-datalad catalog-add --catalog lego --metadata json/wildfire__stanford.jsonl
+datalad catalog-validate --metadata json/wildfire__childs.jsonl
+datalad catalog-add --catalog lego --metadata json/wildfire__childs.jsonl
 
 datalad catalog-validate --metadata json/social.jsonl
 datalad catalog-add --catalog lego --metadata json/social.jsonl
