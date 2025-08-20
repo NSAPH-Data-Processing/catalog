@@ -44,8 +44,11 @@ datalad catalog-add --catalog lego --metadata json/pm25__ushap.jsonl
 datalad catalog-validate --metadata json/pm25__washu.jsonl
 datalad catalog-add --catalog lego --metadata json/pm25__washu.jsonl
 
-datalad catalog-validate --metadata json/pm25_components__washu.jsonl
-datalad catalog-add --catalog lego --metadata json/pm25_components__washu.jsonl
+datalad catalog-validate --metadata json/pm25_components__randall.jsonl
+datalad catalog-add --catalog lego --metadata json/pm25_components__randall.jsonl
+
+datalad catalog-validate --metadata json/pm25_components__schwartz.jsonl
+datalad catalog-add --catalog lego --metadata json/pm25_components__schwartz.jsonl
 
 datalad catalog-validate --metadata json/climate_types__koppen_geiger.jsonl
 datalad catalog-add --catalog lego --metadata json/climate_types__koppen_geiger.jsonl
