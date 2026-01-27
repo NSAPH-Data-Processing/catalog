@@ -41,8 +41,8 @@ datalad catalog-add --catalog lego --metadata json/meteorology__gridmet.jsonl
 datalad catalog-validate --metadata json/pm25__ushap.jsonl
 datalad catalog-add --catalog lego --metadata json/pm25__ushap.jsonl
 
-datalad catalog-validate --metadata json/pm25__washu.jsonl
-datalad catalog-add --catalog lego --metadata json/pm25__washu.jsonl
+datalad catalog-validate --metadata json/pm25__randall.jsonl
+datalad catalog-add --catalog lego --metadata json/pm25__randall.jsonl
 
 datalad catalog-validate --metadata json/pm25_components__randall.jsonl
 datalad catalog-add --catalog lego --metadata json/pm25_components__randall.jsonl
