@@ -1,4 +1,4 @@
-# NSAPH Data Catalog
+# Lego Data Catalog
 
 This repository contains JSON Schema metadata to build the Lego catalog. 
 
