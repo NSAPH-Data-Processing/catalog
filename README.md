@@ -15,6 +15,8 @@ Your primary task is to verify the changes through the preview deployment. You d
 
 ## Review Guide
 
+This guide walks reviewers through the process of validating pull requests (PRs) that update our dataset catalog. Most changes involve adding, removing, or updating dataset entries.
+
 ### Steps
 
 1. **Read the linked issue** Ask the PR creator to point you to the issues that are resolved in the PR, they should appear in the issues tab in Github.
