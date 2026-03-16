@@ -1,0 +1,1 @@
+{"type": "directory", "dataset_id": "lego.environmental.meteorology__gridmet", "dataset_version": "v1", "children": [{"type": "directory", "name": "county_yearly", "path": "seasonal/county_yearly"}, {"type": "directory", "name": "zcta_yearly", "path": "seasonal/zcta_yearly"}], "path": "seasonal", "name": "seasonal"}
