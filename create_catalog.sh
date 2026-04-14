@@ -14,6 +14,27 @@ datalad catalog-add --catalog lego --metadata json/lego.jsonl
 datalad catalog-validate --metadata json/medicare.jsonl
 datalad catalog-add --catalog lego --metadata json/medicare.jsonl
 
+datalad catalog-validate --metadata json/medicaid.jsonl
+datalad catalog-add --catalog lego --metadata json/medicaid.jsonl
+
+datalad catalog-validate --metadata json/taf_denom.jsonl
+datalad catalog-add --catalog lego --metadata json/taf_denom.jsonl
+
+datalad catalog-validate --metadata json/taf_outcomes.jsonl
+datalad catalog-add --catalog lego --metadata json/taf_outcomes.jsonl
+
+datalad catalog-validate --metadata json/taf_ip_header.jsonl
+datalad catalog-add --catalog lego --metadata json/taf_ip_header.jsonl
+
+datalad catalog-validate --metadata json/taf_ip_line.jsonl
+datalad catalog-add --catalog lego --metadata json/taf_ip_line.jsonl
+
+datalad catalog-validate --metadata json/taf_ip_occ.jsonl
+datalad catalog-add --catalog lego --metadata json/taf_ip_occ.jsonl
+
+datalad catalog-validate --metadata json/taf_eligibility.jsonl
+datalad catalog-add --catalog lego --metadata json/taf_eligibility.jsonl
+
 datalad catalog-validate --metadata json/mbsf_mortality_denom.jsonl
 datalad catalog-add --catalog lego --metadata json/mbsf_mortality_denom.jsonl
 
