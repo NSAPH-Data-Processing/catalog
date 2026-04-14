@@ -1,0 +1,1 @@
+{"type": "directory", "dataset_id": "lego.medicaid.taf_outcomes", "dataset_version": "v0", "children": [{"type": "dataset", "name": "mental_health_yyyy.parquet", "path": "all_cause_mental_health/mental_health_yyyy.parquet", "dataset_id": "lego.medicaid.taf_outcomes.outcomes", "dataset_version": "v0"}], "path": "all_cause_mental_health", "name": "all_cause_mental_health"}
