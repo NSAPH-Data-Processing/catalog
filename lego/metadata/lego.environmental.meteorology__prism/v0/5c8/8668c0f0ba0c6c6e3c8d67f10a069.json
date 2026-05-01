@@ -1,0 +1,1 @@
+{"type": "directory", "dataset_id": "lego.environmental.meteorology__prism", "dataset_version": "v0", "children": [{"type": "directory", "name": "zcta_daily", "path": "population_weighted/zcta_daily"}, {"type": "directory", "name": "zcta_yearly", "path": "population_weighted/zcta_yearly"}], "path": "population_weighted", "name": "population_weighted"}
