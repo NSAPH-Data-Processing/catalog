@@ -59,6 +59,9 @@ datalad catalog-add --catalog lego --metadata json/environmental.jsonl
 datalad catalog-validate --metadata json/meteorology__gridmet.jsonl
 datalad catalog-add --catalog lego --metadata json/meteorology__gridmet.jsonl
 
+datalad catalog-validate --metadata json/meteorology__prism.jsonl
+datalad catalog-add --catalog lego --metadata json/meteorology__prism.jsonl
+
 datalad catalog-validate --metadata json/pm25__ushap.jsonl
 datalad catalog-add --catalog lego --metadata json/pm25__ushap.jsonl
 
