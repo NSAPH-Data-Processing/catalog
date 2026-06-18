@@ -6,6 +6,17 @@ Use this link to view the catalog: https://lego-catalog.netlify.app/#/dataset/le
 
 ![Catalog homepage](catalog-homepage.png)  
 
+## Rendering Locally
+
+To render the catalog locally, create the catalog environment and run the catalog build script from the repository root:
+
+```bash
+conda env create -f environment.yaml
+conda activate catalog_generator
+bash create_catalog.sh
+```
+
+The script regenerates the static catalog in `lego/` and serves the rendered site at http://localhost:8000/#/dataset/lego/v0.
 
 **For reviewers:** When a PR adds or updates a dataset card, **review it from a user's perspective**: does the entry look correct and provide the information someone would need to understand and use the dataset? 
 
@@ -43,4 +54,3 @@ This guide walks reviewers through the process of validating pull requests (PRs)
 4. **Submit your review** on GitHub — approve, comment, or request changes.
 
 <!-- TODO: screenshot of a well-filled dataset card on the deployed site -->
-
