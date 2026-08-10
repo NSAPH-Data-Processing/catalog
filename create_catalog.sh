@@ -14,6 +14,15 @@ datalad catalog-add --catalog lego --metadata json/lego.jsonl
 datalad catalog-validate --metadata json/medicare.jsonl
 datalad catalog-add --catalog lego --metadata json/medicare.jsonl
 
+datalad catalog-validate --metadata json/mds.jsonl
+datalad catalog-add --catalog lego --metadata json/mds.jsonl
+
+datalad catalog-validate --metadata json/mds_denom.jsonl
+datalad catalog-add --catalog lego --metadata json/mds_denom.jsonl
+
+datalad catalog-validate --metadata json/mds_stays.jsonl
+datalad catalog-add --catalog lego --metadata json/mds_stays.jsonl
+
 datalad catalog-validate --metadata json/medicaid.jsonl
 datalad catalog-add --catalog lego --metadata json/medicaid.jsonl
 
