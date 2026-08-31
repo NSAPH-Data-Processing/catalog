@@ -14,6 +14,9 @@ datalad catalog-add --catalog lego --metadata json/lego.jsonl
 datalad catalog-validate --metadata json/medicare.jsonl
 datalad catalog-add --catalog lego --metadata json/medicare.jsonl
 
+datalad catalog-validate --metadata json/deprecated_medicare.jsonl
+datalad catalog-add --catalog lego --metadata json/deprecated_medicare.jsonl
+
 datalad catalog-validate --metadata json/mds.jsonl
 datalad catalog-add --catalog lego --metadata json/mds.jsonl
 
@@ -44,14 +47,23 @@ datalad catalog-add --catalog lego --metadata json/taf_ip_occ.jsonl
 datalad catalog-validate --metadata json/taf_eligibility.jsonl
 datalad catalog-add --catalog lego --metadata json/taf_eligibility.jsonl
 
-datalad catalog-validate --metadata json/mbsf_mortality_denom.jsonl
-datalad catalog-add --catalog lego --metadata json/mbsf_mortality_denom.jsonl
+datalad catalog-validate --metadata json/mbsf.jsonl
+datalad catalog-add --catalog lego --metadata json/mbsf.jsonl
 
-datalad catalog-validate --metadata json/mbsf_medpar_denom.jsonl
-datalad catalog-add --catalog lego --metadata json/mbsf_medpar_denom.jsonl
+datalad catalog-validate --metadata json/medpar.jsonl
+datalad catalog-add --catalog lego --metadata json/medpar.jsonl
 
 datalad catalog-validate --metadata json/medpar_outcomes.jsonl
 datalad catalog-add --catalog lego --metadata json/medpar_outcomes.jsonl
+
+datalad catalog-validate --metadata json/deprecated_mbsf_mortality_denom.jsonl
+datalad catalog-add --catalog lego --metadata json/deprecated_mbsf_mortality_denom.jsonl
+
+datalad catalog-validate --metadata json/deprecated_mbsf_medpar_denom.jsonl
+datalad catalog-add --catalog lego --metadata json/deprecated_mbsf_medpar_denom.jsonl
+
+datalad catalog-validate --metadata json/deprecated_medpar_outcomes.jsonl
+datalad catalog-add --catalog lego --metadata json/deprecated_medpar_outcomes.jsonl
 
 datalad catalog-validate --metadata json/mbsf_ccw.jsonl
 datalad catalog-add --catalog lego --metadata json/mbsf_ccw.jsonl
@@ -97,18 +109,6 @@ datalad catalog-add --catalog lego --metadata json/social.jsonl
 
 datalad catalog-validate --metadata json/demographics__census.jsonl
 datalad catalog-add --catalog lego --metadata json/demographics__census.jsonl
-
-datalad catalog-validate --metadata json/legacy_medicare.jsonl
-datalad catalog-add --catalog lego --metadata json/legacy_medicare.jsonl
-
-datalad catalog-validate --metadata json/legacy_mbsf_mortality_denom.jsonl
-datalad catalog-add --catalog lego --metadata json/legacy_mbsf_mortality_denom.jsonl
-
-datalad catalog-validate --metadata json/legacy_mbsf_medpar_denom.jsonl
-datalad catalog-add --catalog lego --metadata json/legacy_mbsf_medpar_denom.jsonl
-
-datalad catalog-validate --metadata json/legacy_medpar_outcomes.jsonl
-datalad catalog-add --catalog lego --metadata json/legacy_medpar_outcomes.jsonl
 
 datalad catalog-set --catalog lego --dataset-id lego --dataset-version v0 home
 
