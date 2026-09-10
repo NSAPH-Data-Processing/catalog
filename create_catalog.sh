@@ -14,8 +14,8 @@ datalad catalog-add --catalog lego --metadata json/lego.jsonl
 datalad catalog-validate --metadata json/health.jsonl
 datalad catalog-add --catalog lego --metadata json/health.jsonl
 
-datalad catalog-validate --metadata json/medicare.jsonl
-datalad catalog-add --catalog lego --metadata json/medicare.jsonl
+datalad catalog-validate --metadata json/medicare_V2.jsonl
+datalad catalog-add --catalog lego --metadata json/medicare_V2.jsonl
 
 datalad catalog-validate --metadata json/medicare_V1.jsonl
 datalad catalog-add --catalog lego --metadata json/medicare_V1.jsonl
@@ -50,11 +50,17 @@ datalad catalog-add --catalog lego --metadata json/taf_ip_occ.jsonl
 datalad catalog-validate --metadata json/taf_eligibility.jsonl
 datalad catalog-add --catalog lego --metadata json/taf_eligibility.jsonl
 
-datalad catalog-validate --metadata json/medpar.jsonl
-datalad catalog-add --catalog lego --metadata json/medpar.jsonl
+datalad catalog-validate --metadata json/medicare_V2_mbsf_medpar.jsonl
+datalad catalog-add --catalog lego --metadata json/medicare_V2_mbsf_medpar.jsonl
 
-datalad catalog-validate --metadata json/medpar_outcomes.jsonl
-datalad catalog-add --catalog lego --metadata json/medpar_outcomes.jsonl
+datalad catalog-validate --metadata json/medicare_V2_mbsf_medpar_65plus.jsonl
+datalad catalog-add --catalog lego --metadata json/medicare_V2_mbsf_medpar_65plus.jsonl
+
+datalad catalog-validate --metadata json/medicare_V2_mbsf_medpar_ffs_65plus.jsonl
+datalad catalog-add --catalog lego --metadata json/medicare_V2_mbsf_medpar_ffs_65plus.jsonl
+
+datalad catalog-validate --metadata json/medicare_V2_mbsf_medpar_outcomes.jsonl
+datalad catalog-add --catalog lego --metadata json/medicare_V2_mbsf_medpar_outcomes.jsonl
 
 datalad catalog-validate --metadata json/medicare_V1_mbsf_mortality_denom.jsonl
 datalad catalog-add --catalog lego --metadata json/medicare_V1_mbsf_mortality_denom.jsonl
