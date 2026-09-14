@@ -59,8 +59,8 @@ datalad catalog-add --catalog lego --metadata json/medicare_V2_mbsf_medpar_65plu
 datalad catalog-validate --metadata json/medicare_V2_mbsf_medpar_ffs_65plus.jsonl
 datalad catalog-add --catalog lego --metadata json/medicare_V2_mbsf_medpar_ffs_65plus.jsonl
 
-datalad catalog-validate --metadata json/medicare_V2_mbsf_medpar_outcomes.jsonl
-datalad catalog-add --catalog lego --metadata json/medicare_V2_mbsf_medpar_outcomes.jsonl
+datalad catalog-validate --metadata json/medpar_V2_predefined_admissions.jsonl
+datalad catalog-add --catalog lego --metadata json/medpar_V2_predefined_admissions.jsonl
 
 datalad catalog-validate --metadata json/medicare_V1_mbsf_mortality_denom.jsonl
 datalad catalog-add --catalog lego --metadata json/medicare_V1_mbsf_mortality_denom.jsonl
