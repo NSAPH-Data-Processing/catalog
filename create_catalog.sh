@@ -47,6 +47,9 @@ datalad catalog-add --catalog lego --metadata json/taf_ip_occ.jsonl
 datalad catalog-validate --metadata json/taf_eligibility.jsonl
 datalad catalog-add --catalog lego --metadata json/taf_eligibility.jsonl
 
+datalad catalog-validate --metadata json/max_taf.jsonl
+datalad catalog-add --catalog lego --metadata json/max_taf.jsonl
+
 datalad catalog-validate --metadata json/medicare_V2_mbsf_medpar.jsonl
 datalad catalog-add --catalog lego --metadata json/medicare_V2_mbsf_medpar.jsonl
 
