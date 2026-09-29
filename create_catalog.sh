@@ -29,9 +29,6 @@ datalad catalog-add --catalog lego --metadata json/mds_denom.jsonl
 datalad catalog-validate --metadata json/mds_stays.jsonl
 datalad catalog-add --catalog lego --metadata json/mds_stays.jsonl
 
-datalad catalog-validate --metadata json/medicaid.jsonl
-datalad catalog-add --catalog lego --metadata json/medicaid.jsonl
-
 datalad catalog-validate --metadata json/taf_denom.jsonl
 datalad catalog-add --catalog lego --metadata json/taf_denom.jsonl
 
