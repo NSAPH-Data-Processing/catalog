@@ -14,20 +14,14 @@ datalad catalog-add --catalog lego --metadata json/lego.jsonl
 datalad catalog-validate --metadata json/health.jsonl
 datalad catalog-add --catalog lego --metadata json/health.jsonl
 
-datalad catalog-validate --metadata json/medicare_V2.jsonl
-datalad catalog-add --catalog lego --metadata json/medicare_V2.jsonl
+datalad catalog-validate --metadata json/denom__mbsf_V2_v1.jsonl
+datalad catalog-add --catalog lego --metadata json/denom__mbsf_V2_v1.jsonl
 
-datalad catalog-validate --metadata json/medicare_V1.jsonl
-datalad catalog-add --catalog lego --metadata json/medicare_V1.jsonl
+datalad catalog-validate --metadata json/denom__mds_V1_v1.jsonl
+datalad catalog-add --catalog lego --metadata json/denom__mds_V1_v1.jsonl
 
-datalad catalog-validate --metadata json/mds.jsonl
-datalad catalog-add --catalog lego --metadata json/mds.jsonl
-
-datalad catalog-validate --metadata json/mds_denom.jsonl
-datalad catalog-add --catalog lego --metadata json/mds_denom.jsonl
-
-datalad catalog-validate --metadata json/mds_stays.jsonl
-datalad catalog-add --catalog lego --metadata json/mds_stays.jsonl
+datalad catalog-validate --metadata json/stays__mds_V1_v1.jsonl
+datalad catalog-add --catalog lego --metadata json/stays__mds_V1_v1.jsonl
 
 datalad catalog-validate --metadata json/medicaid.jsonl
 datalad catalog-add --catalog lego --metadata json/medicaid.jsonl
@@ -50,29 +44,23 @@ datalad catalog-add --catalog lego --metadata json/taf_ip_occ.jsonl
 datalad catalog-validate --metadata json/taf_eligibility.jsonl
 datalad catalog-add --catalog lego --metadata json/taf_eligibility.jsonl
 
-datalad catalog-validate --metadata json/medicare_V2_mbsf_medpar.jsonl
-datalad catalog-add --catalog lego --metadata json/medicare_V2_mbsf_medpar.jsonl
+datalad catalog-validate --metadata json/admissions__medpar_V2_v1.jsonl
+datalad catalog-add --catalog lego --metadata json/admissions__medpar_V2_v1.jsonl
 
-datalad catalog-validate --metadata json/medicare_V2_mbsf_medpar_65plus.jsonl
-datalad catalog-add --catalog lego --metadata json/medicare_V2_mbsf_medpar_65plus.jsonl
+datalad catalog-validate --metadata json/predefined_admissions__medpar_V2_v1.jsonl
+datalad catalog-add --catalog lego --metadata json/predefined_admissions__medpar_V2_v1.jsonl
 
-datalad catalog-validate --metadata json/medicare_V2_mbsf_medpar_ffs_65plus.jsonl
-datalad catalog-add --catalog lego --metadata json/medicare_V2_mbsf_medpar_ffs_65plus.jsonl
+datalad catalog-validate --metadata json/denom__mbsf_V1_v1.jsonl
+datalad catalog-add --catalog lego --metadata json/denom__mbsf_V1_v1.jsonl
 
-datalad catalog-validate --metadata json/medpar_V2_predefined_admissions.jsonl
-datalad catalog-add --catalog lego --metadata json/medpar_V2_predefined_admissions.jsonl
+datalad catalog-validate --metadata json/admissions__medpar_V1_v1.jsonl
+datalad catalog-add --catalog lego --metadata json/admissions__medpar_V1_v1.jsonl
 
-datalad catalog-validate --metadata json/medicare_V1_mbsf_mortality_denom.jsonl
-datalad catalog-add --catalog lego --metadata json/medicare_V1_mbsf_mortality_denom.jsonl
+datalad catalog-validate --metadata json/predefined_admissions__medpar_V1_v1.jsonl
+datalad catalog-add --catalog lego --metadata json/predefined_admissions__medpar_V1_v1.jsonl
 
-datalad catalog-validate --metadata json/medicare_V1_mbsf_medpar_denom.jsonl
-datalad catalog-add --catalog lego --metadata json/medicare_V1_mbsf_medpar_denom.jsonl
-
-datalad catalog-validate --metadata json/medicare_V1_medpar_outcomes.jsonl
-datalad catalog-add --catalog lego --metadata json/medicare_V1_medpar_outcomes.jsonl
-
-datalad catalog-validate --metadata json/mbsf_ccw.jsonl
-datalad catalog-add --catalog lego --metadata json/mbsf_ccw.jsonl
+datalad catalog-validate --metadata json/chronic_conditions__mbsf_V1_v1.jsonl
+datalad catalog-add --catalog lego --metadata json/chronic_conditions__mbsf_V1_v1.jsonl
 
 datalad catalog-validate --metadata json/geoboundaries.jsonl
 datalad catalog-add --catalog lego --metadata json/geoboundaries.jsonl
