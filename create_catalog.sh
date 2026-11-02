@@ -62,6 +62,9 @@ datalad catalog-add --catalog lego --metadata json/predefined_admissions__medpar
 datalad catalog-validate --metadata json/chronic_conditions__mbsf_V1_v1.jsonl
 datalad catalog-add --catalog lego --metadata json/chronic_conditions__mbsf_V1_v1.jsonl
 
+datalad catalog-validate --metadata json/prescriptions__partd_V1_v1.jsonl
+datalad catalog-add --catalog lego --metadata json/prescriptions__partd_V1_v1.jsonl
+
 datalad catalog-validate --metadata json/geoboundaries.jsonl
 datalad catalog-add --catalog lego --metadata json/geoboundaries.jsonl
 
